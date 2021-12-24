@@ -1,7 +1,21 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("fonts/Montserrat-Bold.woff") format("woff");
+}
+
 html,
 body {
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -41,9 +55,7 @@ aside::before {
   color: #9779ec;
 }
 
-h1,
-h2,
-h3 {
+h1 {
   font-size: 18px;
   background-color: #ffffff;
   border: 2px solid #ff994f;
@@ -51,16 +63,6 @@ h3 {
 
 h1::before {
   content: "h1";
-  color: #ff994f;
-}
-
-h2::before {
-  content: "h2";
-  color: #ff994f;
-}
-
-h3::before {
-  content: "h3";
   color: #ff994f;
 }
 
